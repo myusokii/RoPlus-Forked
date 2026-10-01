@@ -1,9 +1,8 @@
+ROPLUS 🦊🌐
 
-[ROPLUS] (Firefox Fork) 🦊
+A revived community fork of an abandoned extension that was sitting on my computer! I loved this project so much that I couldn't let it disappear, so I decided to update and share it here with everyone. Now updated with full support for both Mozilla Firefox and Chromium-based browsers!
 
-A revived version of an abandoned Firefox extension that was sitting on my computer! I loved this project so much that I couldn't let it disappear, so I decided to share it here with everyone.
-
-Disclaimer: This project is a community fork based on the work of the original developer. Full credit goes to the original author for creating this awesome extension in the first place! ur the goat Nikoiogy.
+Disclaimer: This project is a community fork based on the work of the original developer. Full credit goes to the original author for creating this awesome extension in the first place! You're the goat, Nikoiogy.
 
 🛡️ Transparency & Safety
 
@@ -13,27 +12,82 @@ Open Source: You are encouraged to inspect, audit, and review the source code di
 
 🌐 Browser Compatibility
 
-Firefox: Currently, this extension is configured and tested only for Mozilla Firefox.
+| Browser | Supported | Engine |
+| Mozilla Firefox | ✅ | Gecko |
+| Google Chrome | ✅ | Chromium |
+| Brave | ✅ | Chromium |
+| Opera / Opera GX | ✅ | Chromium |
+| Microsoft Edge | ✅ | Chromium |
 
-Other Browsers (Chrome, Brave, Edge, etc.): Not natively supported yet in this state.
+🤝 Contributions & Feedback
 
-🤝 Contributions & Porting
-
-If you feel like adapting, tweaking, or porting this project to work on Chromium-based browsers (Chrome, Brave, Edge, Opera, etc.), please tag or mention me!
+If you make any cool tweaks, fixes, or additions to this project, please tag or mention me!
 
 Even though I am not the original creator, I would really love to see what you build and check out your improvements.
 
-🚀 How to Install (Firefox)
+🚀 How to Install
+
+🦊 Option 1: Mozilla Firefox
 
 Download or clone this repository to your computer.
 
-Open Firefox and go to about:debugging#/runtime/this-firefox.
+Open Firefox and type about:debugging#/runtime/this-firefox into the address bar.
 
 Click on "Load Temporary Add-on...".
 
 Select the manifest.json file inside the repository folder.
 
-(For permanent installation, you can zip the repository contents and submit it as an unlisted add-on on the Mozilla Developer Hub to get a signed .xpi file).
+(Note: For permanent installation in Firefox, you can zip the repository files and submit them as an unlisted add-on on the Mozilla Developer Hub to generate a signed .xpi file for personal use).
+
+🌐 Option 2: Chromium Browsers (Google Chrome, Brave, Opera GX, MS Edge)
+
+🟢 Google Chrome
+
+Download or clone this repository and extract the files into a folder.
+
+Open Chrome and go to chrome://extensions/.
+
+Enable Developer mode using the toggle switch in the top right corner.
+
+Click Load unpacked (Carregar sem compactação) in the top left corner.
+
+Select the folder containing the manifest.json file.
+
+🦁 Brave Browser
+
+Download or clone this repository and extract the files into a folder.
+
+Open Brave and go to brave://extensions/.
+
+Enable Developer mode using the toggle switch in the top right corner.
+
+Click Load unpacked (Carregar sem compactação).
+
+Select the folder containing the manifest.json file.
+
+🔴 Opera / Opera GX
+
+Download or clone this repository and extract the files into a folder.
+
+Open Opera GX and go to opera://extensions/.
+
+Enable Developer mode using the toggle switch in the top right corner.
+
+Click Load unpacked (Carregar sem compactação).
+
+Select the folder containing the manifest.json file.
+
+🌀 Microsoft Edge
+
+Download or clone this repository and extract the files into a folder.
+
+Open Edge and go to edge://extensions/.
+
+Enable Developer mode using the toggle switch on the left menu (or top bar).
+
+Click Load unpacked (Carregar sem compactação).
+
+Select the folder containing the manifest.json file.
 
 🎉 Enjoy!
 
