@@ -13,10 +13,15 @@ Open Source: You are encouraged to inspect, audit, and review the source code di
 🌐 Browser Compatibility
 
 | Browser | Supported | Engine |
+
 | Mozilla Firefox | ✅ | Gecko |
+
 | Google Chrome | ✅ | Chromium |
+
 | Brave | ✅ | Chromium |
+
 | Opera / Opera GX | ✅ | Chromium |
+
 | Microsoft Edge | ✅ | Chromium |
 
 🤝 Contributions & Feedback
