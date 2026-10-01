@@ -54,7 +54,7 @@ Open Chrome and go to chrome://extensions/.
 
 Enable Developer mode using the toggle switch in the top right corner.
 
-Click Load unpacked (Carregar sem compactação) in the top left corner.
+Click Load unpacked in the top left corner.
 
 Select the folder containing the manifest.json file.
 
@@ -66,7 +66,7 @@ Open Brave and go to brave://extensions/.
 
 Enable Developer mode using the toggle switch in the top right corner.
 
-Click Load unpacked (Carregar sem compactação).
+Click Load unpacked.
 
 Select the folder containing the manifest.json file.
 
@@ -78,7 +78,7 @@ Open Opera GX and go to opera://extensions/.
 
 Enable Developer mode using the toggle switch in the top right corner.
 
-Click Load unpacked (Carregar sem compactação).
+Click Load unpacked.
 
 Select the folder containing the manifest.json file.
 
@@ -90,7 +90,7 @@ Open Edge and go to edge://extensions/.
 
 Enable Developer mode using the toggle switch on the left menu (or top bar).
 
-Click Load unpacked (Carregar sem compactação).
+Click Load unpacked.
 
 Select the folder containing the manifest.json file.
 
