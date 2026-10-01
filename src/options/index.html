@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RoPlus Settings</title>
+  <link rel="icon" type="image/svg+xml" href="/icons/RoPlusIcon.svg">
+  <script type="module" crossorigin src="/assets/options-BNkCMyCj.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/options-BU__F7IT.css">
+</head>
+<body>
+  <div class="options-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="options-sidebar">
+      <div class="sidebar-header">
+        <img src="/icons/RoPlusIcon.svg" alt="RoPlus" class="sidebar-logo">
+        <div class="sidebar-title">
+          <h1>RoPlus</h1>
+          <span class="version" id="version-label"></span>
+        </div>
+      </div>
+
+      <!-- Search -->
+      <div class="sidebar-search">
+        <div class="search-input-wrapper">
+          <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="currentColor">
+            <path d="M9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7t-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16m0-2q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"/>
+          </svg>
+          <input type="text" id="settings-search" class="search-input" placeholder="Search settings...">
+          <kbd class="search-kbd">/</kbd>
+        </div>
+      </div>
+
+      <div class="sidebar-enable" id="sidebar-enable">
+        <!-- Enable RoPlus toggle rendered by main.ts -->
+      </div>
+
+      <nav class="sidebar-nav" id="sidebar-nav">
+        <!-- Navigation items rendered by main.ts -->
+      </nav>
+      <div class="sidebar-footer">
+        <a href="https://discord.gg/bkE9kFXDRH" target="_blank">Discord</a>
+        <a href="https://roplus.dev/terms" target="_blank">Terms</a>
+        <a href="https://roplus.dev/privacy" target="_blank">Privacy</a>
+      </div>
+    </aside>
+
+    <!-- Main Content -->
+    <main class="options-main">
+      <!-- Conflict Warning Banner (hidden by default) -->
+      <div id="conflict-banner" class="conflict-banner" style="display: none;">
+        <div class="conflict-banner-icon">
+          <svg viewBox="0 -960 960 960" fill="currentColor">
+            <path d="M479.93-274.02q16.46 0 27.4-10.74 10.93-10.75 10.93-27.21t-10.86-27.52q-10.86-11.05-27.33-11.05-16.46 0-27.4 11.03-10.93 11.04-10.93 27.5 0 16.47 10.86 27.23 10.86 10.76 27.33 10.76Zm-31-158.74h68.14v-257.07h-68.14v257.07ZM480.3-74.02q-84.2 0-158.04-31.88-73.84-31.88-129.16-87.2-55.32-55.32-87.2-129.2-31.88-73.88-31.88-158.17 0-84.28 31.88-158.2 31.88-73.91 87.16-128.74 55.28-54.84 129.18-86.82 73.9-31.99 158.21-31.99 84.3 0 158.25 31.97 73.94 31.97 128.75 86.77 54.82 54.8 86.79 128.88 31.98 74.08 31.98 158.33 0 84.24-31.99 158.07-31.98 73.84-86.82 128.95-54.83 55.1-128.87 87.17Q564.5-74.02 480.3-74.02Zm.2-68.13q140.54 0 238.95-98.75 98.4-98.76 98.4-239.6 0-140.54-98.22-238.95-98.21-98.4-239.75-98.4-140.16 0-238.95 98.22-98.78 98.21-98.78 239.75 0 140.16 98.75 238.95 98.76 98.78 239.6 98.78ZM480-480Z"/>
+          </svg>
+        </div>
+        <div class="conflict-banner-content">
+          <span class="conflict-banner-title">Extension Conflict Detected</span>
+          <span id="conflict-banner-text" class="conflict-banner-text">Another Roblox extension was detected.</span>
+        </div>
+      </div>
+
+      <!-- Search Results (hidden by default) -->
+      <div id="search-results" class="search-results" style="display: none;">
+        <div class="search-results-header">
+          <span class="search-results-count"></span>
+          <button class="search-clear-btn" id="search-clear">Clear search</button>
+        </div>
+        <div class="search-results-list" id="search-results-list"></div>
+      </div>
+
+      <div class="options-content" id="options-content">
+        <!-- Sections rendered dynamically by main.ts -->
+      </div>
+    </main>
+  </div>
+</body>
+</html>
